@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-2 md:mt-3 lg:mt-4 scroll-mt-20"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
@@ -28,8 +28,6 @@ const About = () => {
               sequence={[
                 'Fullstack Developer',
                 2000,
-                'App Developer',
-                2000,
                 'UI/UX Designer',
                 2000,
                 'Coder',
@@ -43,8 +41,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
+            I am a full-stack developer Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
             modern technologies to create seamless user experiences and
             efficient solutions.
@@ -67,7 +64,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-40 h-40 sm:w-52 sm:h-52 md:w-[22rem] md:h-[22rem] border-4 border-purple-700 rounded-full overflow-hidden"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
