@@ -5,7 +5,7 @@ import Education from "./components/Education/Education"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Skills from "./components/Skills/Skills"
-import Work from "./components/Work/work"
+import Work from "./components/Work/Work"
 import BlurBlob from "./components/BlurBlob"
 
 function App() {
